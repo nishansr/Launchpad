@@ -1,5 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -9,14 +10,12 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        centerTitle: true,
+        // centerTitle: true,
+        elevation: 0.0,
         backgroundColor: Colors.black,
         title: Text(
           'LaunchPad',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 25,
-          ),
+          style: GoogleFonts.orbitron(),
         ),
       ),
       body: Center(
